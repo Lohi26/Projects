@@ -1,0 +1,52 @@
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+}
+body{
+    background-color: lightslategray;
+}
+@keyframes border-animation {
+    0% { 
+        border-width: 6px; 
+        border-color: violet; 
+    }
+    20% { 
+        border-width: 6px; 
+        border-color:indigo; 
+    }
+    40% { 
+        border-width: 6px; 
+        border-color: blue; 
+    }
+    60%{
+        border-width: 6px;
+        border-color: green;
+    }
+    80%{
+        border-width: 6px;
+        border-color: yellow;
+    }
+    100%{
+        border-width: 6px;
+        border-color: orange;
+    }
+}
+
+.tableCenter {
+    margin: 0 auto;
+    margin-top: 15%;
+    border: 2px solid rgba(255, 0, 0, 0.5);
+    animation: border-animation 2s infinite;
+}
+
+.click{
+    position: absolute;
+    left: 78%;
+    top: 93%;
+}
+.heading{
+    position: absolute;
+    top: 20%;
+    left: 48%;
+}
